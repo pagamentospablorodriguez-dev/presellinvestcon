@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+<title>Tudo Certo!</title>
+
+<style>
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.like {
+    width: 142px;
+    height: 161px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+.flex{
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy,.alt {
+    font-size: 16.4px;
+    font-weight: bold;
+    letter-spacing: 0.21px;
+    color: #828282;
+}
+
+.alt {
+    font-weight: normal;
+}
+
+#redirect{
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #5cb85d;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    color: #ffffff;
+    padding: 15px 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 2px rgba(0,0,0,0.3);
+    transition: all 0.1s ease-in-out;
+}
+
+#redirect:hover{
+    background-color: #3ea342;
+    box-shadow: 0 5px 5px 2px rgba(0,0,0,0.3);
+}
+
+/* Símbolo no canto */
+.signature {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-size: 14px;
+    opacity: 0.35;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Ajuste para mobile */
+@media (max-width: 600px) {
+    .signature {
+        font-size: 12px;
+        bottom: 8px;
+        right: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+    
+    <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1162364828302806&ev=PageView&noscript=1"
+/></noscript>
+
+<div class="flex">
+    <div class="container">
+        <img src="images/like.svg" class="like" alt="Like icon">
+        <p class="copy">
+            Tudo certo!
+        </p>
+        <p class="alt">
+            Clique em continuar para ser direcionado para a página solicitada.
+        </p>
+        <a href="https://investconnectbr.alaobra.co" id="redirect">Continuar</a>
+    </div>
+</div>
+
+</body>
+</html>
